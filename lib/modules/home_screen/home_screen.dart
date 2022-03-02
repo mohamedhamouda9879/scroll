@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scroll_app/shared/components/components.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -6,13 +7,15 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Scroll App'),
-      ),
-      body: Center(
-        child: Container(
-          child: Text('Home Screen'),
-        ),
+      body: Column(
+        children: [
+          AppBarDesign(),
+          Center(
+            child: Container(
+              child: Text('Home Screen'),
+            ),
+          ),
+        ],
       ),
     );
   }

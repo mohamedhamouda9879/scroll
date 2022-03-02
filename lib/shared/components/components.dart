@@ -76,7 +76,32 @@ Widget defaultFormField({
       ),
     );
 
-
+Widget AppBarDesign()=>Container(
+  child: Column(
+    children: <Widget>[
+      Stack(
+        children: [
+          Container(
+            height: 75,
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: <Color>[
+                  Color(0xFF03317C),
+                  Color(0xFF05B3D6),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+      Container(
+        width: double.maxFinite,
+        height: 6,
+        color: Colors.lime,
+      ),
+    ],
+  ),
+);
 
 Widget myDivider() => Padding(
       padding: const EdgeInsetsDirectional.only(
