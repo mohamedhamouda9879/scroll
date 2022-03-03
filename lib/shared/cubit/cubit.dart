@@ -19,8 +19,8 @@ class AppCubit extends Cubit<AppStates> {
   List<Widget> screens = [
     HomeScreen(),
     SpecialAdsScreen(),
-    FavouritesScreen(),
     SearchScreen(),
+    FavouritesScreen(),
     SettingScreen(),
   ];
 

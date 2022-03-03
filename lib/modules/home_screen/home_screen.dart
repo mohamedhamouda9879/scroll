@@ -65,6 +65,7 @@ class HomeScreen extends StatelessWidget {
   }
 
   Widget _image(String asset) {
+
     return Image.asset(
       asset,
       height: 30.0,
