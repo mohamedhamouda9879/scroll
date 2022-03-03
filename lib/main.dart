@@ -4,6 +4,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:scroll_app/layout/cubit/cubit.dart';
 import 'package:scroll_app/layout/scroll_layout.dart';
 import 'package:scroll_app/modules/home_screen/home_screen.dart';
+import 'package:scroll_app/modules/register/are_you_screen.dart';
+import 'package:scroll_app/modules/register/new_user_screen/new_user_screen.dart';
 import 'package:scroll_app/shared/cubit/cubit.dart';
 
 
